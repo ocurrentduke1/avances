@@ -1,14 +1,11 @@
-
 package pub;
 
-
 public class VinosLicores {
-    
     private String nombre;
     private String marca;
     private int cantidad;
     private int tamano;
-    private float alchol;
+    private float alcohol;
     public VinosLicores next;
 
     public void setNombre(String nombre) {
@@ -27,8 +24,8 @@ public class VinosLicores {
         this.tamano = tamano;
     }
 
-    public void setAlchol(float alchol) {
-        this.alchol = alchol;
+    public void setAlcohol(float alcohol) {
+        this.alcohol = alcohol;
     }
 
     public String getNombre() {
@@ -47,8 +44,8 @@ public class VinosLicores {
         return tamano;
     }
 
-    public float getAlchol() {
-        return alchol;
+    public float getAlcohol() {
+        return alcohol;
     }
 
     public VinosLicores getNext() {
@@ -58,15 +55,13 @@ public class VinosLicores {
     public void setNext(VinosLicores next) {
         this.next = next;
     }
-    
-    
 
-    public Cerveza() {
+    public VinosLicores() {
         this.nombre = nombre;
         this.marca = marca;
         this.cantidad = cantidad;
         this.tamano = tamano;
-        this.alchol = alchol;
+        this.alcohol = alcohol;
         this.next = next;
     }
 }

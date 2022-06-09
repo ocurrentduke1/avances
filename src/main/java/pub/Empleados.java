@@ -1,9 +1,6 @@
-
 package pub;
 
-
 public class Empleados {
-    
     private String nombre;
     private String apellido;
     private String puesto;
@@ -67,6 +64,4 @@ public class Empleados {
         this.numCel = numCel;
         this.next = next;
     }
-    
-    
 }
